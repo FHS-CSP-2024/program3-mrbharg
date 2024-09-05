@@ -19,15 +19,16 @@ skill2 = "java"
 level2 = "veteran"
 skill3 = "programming"
 level3 = "semiprofessional"
-lower = 2000
+lower = 2000 
 upper = 3000
 
-print("my name is ", name, " , I am ", age, "years old")
+print(f"my name is {name}, I am {age} years old")
+print("\t")
 print("my skills are")
-print("- ", skill1, " (", level1, ")")
-print("- ", skill2, " (", level2, ")")
-print("- ", skill3, " (", level3, " )")
-print("I am looking for a job with a salary of", lower, "-", upper, "dollars per month")
+print(f"- {skill1} ({level1})")
+print(f"- {skill2} ({level2})")
+print(f"- {skill3} ({level3})")
+print(f"I am looking for a job with a salary of {lower}-{upper} dollars per month")
 
 
 
@@ -51,3 +52,7 @@ print("I am looking for a job with a salary of", lower, "-", upper, "dollars per
 x = input("X val: ")
 y = input("Y val: ")
 
+add = print(int(x) + int(y))
+sub = print(int(x) - int(y))
+multiply = print(int(x) * int(y))
+division = print(int(x)/int(y))

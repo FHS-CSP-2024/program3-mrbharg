@@ -9,6 +9,51 @@
 
 
 
+myXVAL = 10
+myxval = 7
+
+print(myXVAL)
+
+name = "Chuck"
+number = 100
+#newNumber = "100h" doesn't work
+
+print(number/2)
+#casting example
+#print(int(newNumber)/2)
+
+myFloat = 3.54
+
+num1 = 100
+num2 = 75
+num3 = 967
+
+avg = (num1 + num2 + num3)/2
+print(f"Average: {avg}")
+print(avg)
+print("Average ", avg)
+print("Average " + str(avg))
+
+
+
+beds = 5
+bathrooms = 8
+address = "608 Skibiddi Ln"
+city = "Sigma Town"
+zip = 78902
+rent = 7000
+
+print(f"House for rent at {address} in {city} ({zip})")
+print(f"\t{beds} bedrooms, {bathrooms} bathrooms")
+print(f"\trent is ${rent}/month")
+
+
+#file path example
+print("I have a file located at: C:\\Users\\mrJohnson")
+
+
+
+
 ## Live Demo ##
 #
 # Casing
